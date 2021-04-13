@@ -35,14 +35,14 @@
 
         mac_layer {
             bindings = <
-    &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans   &trans  
-    &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans   &trans  
-    &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans   &trans  
-    &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans   &trans  
-                    &trans  &trans                                     &trans  &trans
-                                    &trans  &trans     &trans  &trans 
-                                    &trans  &trans     &trans  &trans 
-                                    &trans  &trans     &trans  &trans 
+    &trans  &trans  &trans  &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans   &trans  
+    &trans  &trans  &trans  &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans   &trans  
+    &trans  &trans  &trans  &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans   &trans  
+    &trans  &trans  &trans  &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans   &trans  
+                    &trans  &trans                                           &trans  &trans
+                                    &trans        &trans     &trans  &trans 
+                                    &mt LGUI TAB  &trans     &trans  &mt RGUI STAR 
+                                    &trans        &trans     &trans  &trans 
             >;
         };
 
