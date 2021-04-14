@@ -22,7 +22,7 @@
 
         default_layer {
             bindings = <
-    &kp ESC   &kp N1  &kp N2    &kp N3    &kp N4         &kp N5            &kp N6         &kp N7           &kp N8    &kp N9    &kp N0   &tog RAISE
+    &kp ESC   &kp N1  &kp N2    &kp N3    &kp N4         &kp N5            &kp N6         &kp N7           &kp N8    &kp N9    &kp N0   &kp MINUS
     &kp TAB   &kp Q   &kp W     &kp E     &kp R          &kp T             &kp Y          &kp U            &kp I     &kp O     &kp P    &kp BSLH
     &mo LOWER &kp A   &kp S     &kp D     &kp F          &kp G             &kp H          &kp J            &kp K     &kp L     &kp SEMI &kp SQT
     &kp GRAVE &kp Z   &kp X     &kp C     &kp V          &kp B             &kp N          &kp M            &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
@@ -52,7 +52,7 @@
     &sl ADJUST    &none     &none      &none      &none     &tog MAC         &none       &kp LC(1)    &kp LC(PG_UP)    &kp LC(PG_DN)     &kp LC(9)   &none 
     &kp C_BRI_UP  &kp CAPS  &none      &none      &none     &none            &kp LEFT    &kp DOWN     &kp UP           &kp RIGHT         &none       &none 
     &kp C_BRI_DN  &none     &none      &none      &none     &none            &kp MEH(N)  &kp MEH(M)   &kp LG(LC(LEFT)) &kp LG(LC(RIGHT)) &kp LG(TAB) &none 
-                            &kp C_PREV &kp C_NEXT                                                     &kp C_VOL_UP     &kp C_VOL_DN 
+                            &kp C_PREV &kp C_NEXT                                                     &kp C_VOL_DN     &kp C_VOL_UP 
                                                   &trans    &none            &kp PSCRN   &sl ADJUST
                                                   &none     &none            &kp PG_UP   &none
                                                   &trans    &trans           &kp PG_DN   &none   
