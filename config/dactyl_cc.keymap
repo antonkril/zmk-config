@@ -22,65 +22,66 @@
 
         default_layer {
             bindings = <
-    &kp ESC   &kp N1  &kp N2    &kp N3    &kp N4         &kp N5            &kp N6         &kp N7           &kp N8    &kp N9    &kp N0   &kp MINUS
-    &kp TAB   &kp Q   &kp W     &kp E     &kp R          &kp T             &kp Y          &kp U            &kp I     &kp O     &kp P    &kp BSLH
-    &mo LOWER &kp A   &kp S     &kp D     &kp F          &kp G             &kp H          &kp J            &kp K     &kp L     &kp SEMI &kp SQT
-    &kp GRAVE &kp Z   &kp X     &kp C     &kp V          &kp B             &kp N          &kp M            &kp COMMA &kp DOT   &kp FSLH &kp RSHFT
-                      &kp LPAR  &kp RPAR                                                                   &kp LBKT  &kp RBKT
-                                          &lt LOWER ESC  &kp BSPC          &kp RET        &lt RAISE SPACE
-                                          &mt LGUI TAB   &mt LSHFT HOME    &mt RSHFT END  &mt RGUI STAR
-                                          &mt LALT COLON &mt LCTRL MINUS   &mt RCTRL PLUS &mt RALT EQUAL
+                &kp ESC         &kp N1          &kp N2          &kp N3          &kp N4          &kp N5              &kp N6         &kp N7          &kp N8          &kp N9          &kp N0          &kp BSPC
+                &kp PERCENT     &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y          &kp U           &kp I           &kp O           &kp P           &kp BSLH
+                &mo GRAVE       &kp A           &kp S           &kp D           &kp F           &kp G               &kp H          &kp J           &kp K           &kp L           &kp SEMI        &kp SQT
+                &kp CARET       &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N          &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp DOLLAR
+                                                &kp LPAR        &kp RPAR                                                                           &kp LBKT        &kp RBKT
+                                                                                &lt LOWER ESC   &kp BSPC            &kp RET        &lt RAISE SPACE
+                                                                                &mt LGUI TAB    &mt LSHFT HOME      &mt RSHFT END  &mt RGUI STAR
+                                                                                &mt LALT COLON  &mt LCTRL MINUS     &mt RCTRL PLUS &mt RALT EQUAL
             >;
         };
 
         mac_layer {
             bindings = <
-    &trans  &trans  &trans  &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans   &trans  
-    &trans  &trans  &trans  &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans   &trans  
-    &trans  &trans  &trans  &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans   &trans  
-    &trans  &trans  &trans  &trans  &trans        &trans     &trans  &trans  &trans  &trans  &trans   &trans  
-                    &trans  &trans                                           &trans  &trans
-                                    &trans        &trans     &trans  &trans 
-                                    &mt LGUI TAB  &trans     &trans  &mt RGUI STAR 
-                                    &trans        &trans     &trans  &trans 
+                &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans  
+                &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans  
+                &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans  
+                &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans  
+                                                &trans          &trans                                                              &trans          &trans
+                                                                                &trans          &trans              &trans          &trans 
+                                                                                &mt LGUI TAB    &trans              &trans          &mt RGUI STAR 
+                                                                                &trans          &trans              &trans          &trans 
             >;
         };
 
         lower_layer {
             bindings = <
-    &kp F12       &kp F1    &kp F2     &kp F3     &kp F4    &kp F5           &kp F6      &kp F7       &kp F8           &kp F9            &kp F10     &kp F11
-    &sl ADJUST    &none     &none      &none      &none     &tog MAC         &none       &kp LC(1)    &kp LC(PG_UP)    &kp LC(PG_DN)     &kp LC(9)   &none 
-    &kp C_BRI_UP  &kp CAPS  &none      &none      &none     &none            &kp LEFT    &kp DOWN     &kp UP           &kp RIGHT         &none       &none 
-    &kp C_BRI_DN  &none     &none      &none      &none     &none            &kp MEH(N)  &kp MEH(M)   &kp LG(LC(LEFT)) &kp LG(LC(RIGHT)) &kp LG(TAB) &none 
-                            &kp C_PREV &kp C_NEXT                                                     &kp C_VOL_DN     &kp C_VOL_UP 
-                                                  &trans    &none            &kp PSCRN   &sl ADJUST
-                                                  &none     &none            &kp PG_UP   &none
-                                                  &trans    &trans           &kp PG_DN   &none   
-            >;       };
+                &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5              &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
+                &kp CAPS        &none           &none           &kp MEH(E)      &kp MEH(R)      &none               &none           &kp PG_DN       &kp PG_UP       &none           &none           &tog MAC
+                &kp C_BRI_UP    &none           &trans          &kp MEH(D)      &kp MEH(F)      &none               &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none           &kp C_VOL_UP
+                &kp C_BRI_DN    &none           &none           &none           &kp MEH(V)      &none               &kp MEH(N)      &kp MEH(M)      &kp MEH(COMMA)  &kp MEH(DOT)    &none           &kp C_VOL_DN
+                                                &kp C_PREV      &kp C_NEXT                                                                          &kp C_VOL_DN    &kp C_VOL_UP 
+                                                                                &trans          &none               &kp PSCRN       &sl ADJUST
+                                                                                &none           &trans              &trans          &trans
+                                                                                &trans          &trans              &trans          &trans   
+            >;
+        };
 
-        raise_layer {
+        raise_layer { 
             bindings = <
-    &trans    &trans    &trans   &trans  &trans  &trans      &trans      &trans     &trans    &trans     &trans       &trans
-    &kp TAB   &kp T     &kp Q    &kp W   &kp E   &kp R       &trans      &kp KP_N7  &kp KP_N8 &kp KP_N9  &kp KP_MINUS &trans
-    &kp G     &kp LSHFT &kp A    &kp S   &kp D   &kp F       &trans      &kp KP_N4  &kp KP_N5 &kp KP_N6  &kp KP_PLUS  &trans
-    &kp M     &trans    &trans   &trans  &trans  &trans      &kp KP_NLCK &kp KP_N1  &kp KP_N2 &kp KP_N3  &kp KP_SLASH &trans
-                        &trans   &trans                                             &kp KP_COMMA &kp KP_N0 
-                                         &trans  &trans      &trans  &trans
-                                         &trans  &trans      &trans  &trans
-                                         &trans  &trans      &trans  &trans
+                &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans
+                &kp TAB         &kp T           &kp Q           &kp W           &kp E           &kp R               &trans          &kp KP_N7       &kp KP_N8       &kp KP_N9       &kp KP_MINUS    &trans
+                &kp G           &kp LSHFT       &kp A           &kp S           &kp D           &kp F               &trans          &kp KP_N4       &kp KP_N5       &kp KP_N6       &kp KP_PLUS     &trans
+                &kp M           &trans          &trans          &trans          &trans          &trans              &kp KP_NLCK     &kp KP_N1       &kp KP_N2       &kp KP_N3       &kp KP_SLASH    &trans
+                                                &trans          &trans                                                                              &kp KP_N0       &kp KP_DOT 
+                                                                                &trans          &kp DEL             &trans          &trans
+                                                                                &trans          &trans              &trans          &trans
+                                                                                &trans          &trans              &trans          &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-    &none     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4            &none       &none     &none     &none     &none    &none  
-    &trans    &out OUT_USB &out OUT_BLE &none        &reset       &none                   &none       &reset    &none     &none     &none    &none   
-    &trans    &none        &none        &none        &none        &none                   &none       &none     &none     &none     &none    &none   
-    &none     &none        &bt BT_CLR   &none        &none        &bootloader             &bootloader &none     &none     &none     &none    &none   
-                           &none        &none                                                                   &none     &none 
-                                                                  &trans      &none       &none       &trans 
-                                                                  &none       &none       &none       &none 
-                                                                  &none       &none       &none       &none 
+                &none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4        &none           &none           &none           &none           &none           &none  
+                &trans          &out OUT_USB    &out OUT_BLE    &none           &reset          &none               &none           &reset          &none           &none           &none           &none   
+                &trans          &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &none   
+                &none           &none           &bt BT_CLR      &none           &none           &bootloader         &bootloader     &none           &none           &none           &none           &none   
+                                                &none           &none                                                                               &none           &none 
+                                                                                &trans          &none               &none           &trans 
+                                                                                &none           &none               &none           &none 
+                                                                                &none           &none               &none           &none 
             >;
         };
     };
