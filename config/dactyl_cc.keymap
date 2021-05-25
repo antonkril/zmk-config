@@ -67,7 +67,7 @@
                 &kp M           &trans          &trans          &trans          &trans          &trans              &kp KP_NLCK     &kp KP_N1       &kp KP_N2       &kp KP_N3       &kp KP_SLASH    &trans
                                                 &trans          &trans                                                                              &kp KP_N0       &kp KP_DOT 
                                                                                 &trans          &kp DEL             &trans          &trans
-                                                                                &trans          &trans              &trans          &trans
+                                                                                &trans          &trans              &trans          &sl ADJUST
                                                                                 &trans          &trans              &trans          &trans
             >;
         };
