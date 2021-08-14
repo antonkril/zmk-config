@@ -54,7 +54,7 @@
                 &kp C_BRI_DN    &none           &none           &kp MEH(C)      &kp MEH(V)      &none               &kp MEH(N)      &kp MEH(M)      &kp MEH(COMMA)  &kp MEH(DOT)    &none           &kp C_VOL_DN
                                                 &kp C_PREV      &kp C_NEXT                                                                          &none           &none 
                                                                                 &trans          &none               &kp PSCRN       &sl ADJUST
-                                                                                &none           &trans              &trans          &trans
+                                                                                &sl ADJUST      &trans              &trans          &trans
                                                                                 &trans          &trans              &trans          &trans   
             >;
         };
