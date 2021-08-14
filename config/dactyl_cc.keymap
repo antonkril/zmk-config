@@ -53,7 +53,7 @@
                 &kp C_BRI_UP    &kp MEH(A)      &kp MEH(S)      &kp MEH(D)      &kp MEH(F)      &kp MEH(G)          &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none           &kp C_VOL_UP
                 &kp C_BRI_DN    &none           &none           &kp MEH(C)      &kp MEH(V)      &none               &kp MEH(N)      &kp MEH(M)      &kp MEH(COMMA)  &kp MEH(DOT)    &none           &kp C_VOL_DN
                                                 &kp C_PREV      &kp C_NEXT                                                                          &none           &none 
-                                                                                &trans          &none               &kp PSCRN       &sl ADJUST
+                                                                                &trans          &none               &kp MEH(RET)    &sl ADJUST
                                                                                 &sl ADJUST      &trans              &trans          &trans
                                                                                 &trans          &trans              &trans          &trans   
             >;
