@@ -62,8 +62,8 @@
         raise_layer {
             bindings = <
                 &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans
-                &trans          &trans          &trans          &kp ASTERISK    &kp AMPERSAND   &trans              &kp KP_DIVIDE   &kp N7          &kp N8          &kp N9          &kp MINUS       &trans
-                &trans          &trans          &kp CARET       &kp PERCENT     &kp DOLLAR      &trans              &kp KP_MULTIPLY &kp N4          &kp N5          &kp N6          &kp PLUS        &kp PERCENT
+                &trans          &trans          &trans          &kp ASTERISK    &kp AMPERSAND   &trans              &kp KP_DIVIDE   &kp N7          &kp N8          &kp N9          &kp MULTIPLY    &trans
+                &trans          &trans          &kp CARET       &kp PERCENT     &kp DOLLAR      &trans              &kp KP_MINUS    &kp N4          &kp N5          &kp N6          &kp PLUS        &kp PERCENT
                 &trans          &trans          &kp HASH        &kp AT          &kp EXCL        &trans              &kp KP_EQUAL    &kp N1          &kp N2          &kp N3          &kp KP_ENTER    &trans
                                                 &trans          &trans                                                                              &kp N0          &kp KP_DOT 
                                                                                 &trans          &trans              &trans          &trans
