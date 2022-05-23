@@ -28,7 +28,7 @@
                 &kp CARET       &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N          &kp M           &kp COMMA       &kp DOT         &kp FSLH        &kp DOLLAR
                                                 &kp LPAR        &kp RPAR                                                                           &kp LBKT        &kp RBKT
                                                                                 &lt LOWER ESC   &kp BSPC            &kp RET        &lt RAISE SPACE
-                                                                                &mt LGUI TAB    &mt LSHFT HOME      &mt RSHFT END  &mt RGUI STAR
+                                                                                &mt LGUI TAB    &mt LSHFT GRAVE     &mt RSHFT SQT  &mt RGUI STAR
                                                                                 &mt LALT COLON  &mt LCTRL MINUS     &mt RCTRL PLUS &mt RALT EQUAL
             >;
         };
@@ -62,7 +62,7 @@
         raise_layer {
             bindings = <
                 &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans
-                &trans          &trans          &trans          &kp ASTERISK    &kp AMPERSAND   &trans              &kp KP_DIVIDE   &kp N7          &kp N8          &kp N9          &kp KP_MULTIPLY &trans
+                &trans          &trans          &kp BSLH        &kp ASTERISK    &kp AMPERSAND   &kp PIPE            &kp KP_DIVIDE   &kp N7          &kp N8          &kp N9          &kp KP_MULTIPLY &trans
                 &trans          &trans          &kp CARET       &kp PERCENT     &kp DOLLAR      &trans              &kp MINUS       &kp N4          &kp N5          &kp N6          &kp PLUS        &kp PERCENT
                 &trans          &trans          &kp HASH        &kp AT          &kp EXCL        &trans              &kp KP_EQUAL    &kp N1          &kp N2          &kp N3          &kp KP_ENTER    &trans
                                                 &trans          &trans                                                                              &kp N0          &kp KP_DOT 
