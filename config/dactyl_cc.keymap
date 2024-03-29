@@ -51,10 +51,10 @@
                 &kp F12         &kp F1          &kp F2          &kp F3          &kp F4          &kp F5              &kp F6          &kp F7          &kp F8          &kp F9          &kp F10         &kp F11
                 &kp CAPS        &none           &none           &kp MEH(E)      &kp MEH(R)      &none               &kp HOME        &kp PG_DN       &kp PG_UP       &kp END         &none           &tog MAC
                 &none           &kp MEH(A)      &kp MEH(S)      &kp MEH(D)      &kp MEH(F)      &kp MEH(G)          &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none           &none
-                &none           &none           &none           &kp MEH(C)      &kp MEH(V)      &none               &kp MEH(N)      &kp MEH(M)      &kp MEH(COMMA)  &kp MEH(DOT)    &none           &none
+                &none           &none           &none           &kp MEH(C)      &kp MEH(V)      &kp MEH(            &kp MEH(N)      &kp MEH(M)      &kp MEH(COMMA)  &kp MEH(DOT)    &none           &none
                                                 &kp C_BRI_DN    &kp C_BRI_UP                                                                        &kp C_VOL_DN    &kp C_VOL_UP
                                                                                 &trans          &none               &kp MEH(RET)    &sl ADJUST
-                                                                                &sl ADJUST      &trans              &trans          &trans
+                                                                                &sl ADJUST      &trans              &trans          &kp MEH(STAR)
                                                                                 &trans          &trans              &trans          &trans
             >;
         };
@@ -62,9 +62,9 @@
         raise_layer {
             bindings = <
                 &trans          &trans          &trans          &trans          &trans          &trans              &trans          &trans          &trans          &trans          &trans          &trans
-                &trans          &trans          &kp BSLH        &kp ASTERISK    &kp AMPERSAND   &kp PIPE            &kp KP_DIVIDE   &kp N7          &kp N8          &kp N9          &kp KP_MULTIPLY &trans
-                &trans          &trans          &kp CARET       &kp PERCENT     &kp DOLLAR      &trans              &kp MINUS       &kp N4          &kp N5          &kp N6          &kp PLUS        &trans
-                &trans          &trans          &kp HASH        &kp AT          &kp EXCL        &trans              &kp KP_EQUAL    &kp N1          &kp N2          &kp N3          &kp KP_ENTER    &trans
+                &trans          &kp COLON       &kp PIPE        &kp ASTERISK    &kp AMPERSAND   &kp BSLH            &kp KP_DIVIDE   &kp N7          &kp N8          &kp N9          &kp KP_MULTIPLY &trans
+                &trans          &kp LBKT        &kp CARET       &kp PERCENT     &kp DOLLAR      &kp RBKT            &kp MINUS       &kp N4          &kp N5          &kp N6          &kp PLUS        &trans
+                &trans          &kp LT          &kp HASH        &kp AT          &kp EXCL        &kp GT              &kp KP_EQUAL    &kp N1          &kp N2          &kp N3          &kp KP_ENTER    &trans
                                                 &trans          &trans                                                                              &kp N0          &kp KP_DOT 
                                                                                 &trans          &trans              &trans          &trans
                                                                                 &trans          &trans              &trans          &sl ADJUST
