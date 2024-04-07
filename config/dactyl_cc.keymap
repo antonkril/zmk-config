@@ -23,11 +23,11 @@
             bindings = <
                 &none           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &none
                 &none           &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P           &none
-                &none           &kp A           &mt LALT S      &mt LCTRL D     &mt LGUI F      &kp G               &kp H           &mt RGUI J      &mt RCTRL K     &mt RALT L      &kp SEMI        &none
+                &none           &kp A           &kp S           &kp D           &kp F           &kp G               &kp H           &kp J           &kp K           &kp L           &kp SEMI        &none
                 &none           &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &none
                                                 &kp LPAR        &kp RPAR                                                                            &kp LBKT        &kp RBKT
                                                                                 &lt LOWER ESC   &kp BSPC            &kp RET         &lt RAISE SPACE
-                                                                                &mt LSHIFT TAB  &mt LGUI GRAVE      &mt RGUI SQT    &mt RSHIFT STAR
+                                                                                &mt LGUI TAB    &mt LSHIFT GRAVE    &mt RSHIFT SQT  &mt RGUI STAR
                                                                                 &mt LALT COLON  &mt LCTRL MINUS     &mt RCTRL PLUS  &mt RALT EQUAL
             >;
         };
@@ -39,7 +39,7 @@
                 &none           &kp MEH(A)      &kp MEH(S)      &kp MEH(D)      &kp MEH(F)      &kp MEH(G)          &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none           &none
                 &none           &none           &none           &kp MEH(C)      &kp MEH(V)      &kp MEH(B)          &kp MEH(N)      &kp MEH(M)      &kp MEH(COMMA)  &kp MEH(DOT)    &none           &none
                                                 &kp C_BRI_DN    &kp C_BRI_UP                                                                        &kp C_VOL_DN    &kp C_VOL_UP
-                                                                                &trans          &none               &kp MEH(RET)    &sl ADJUST
+                                                                                &trans          &none               &trans          &sl ADJUST
                                                                                 &sl ADJUST      &trans              &trans          &trans
                                                                                 &trans          &trans              &trans          &trans
             >;
@@ -61,7 +61,7 @@
         adjust_layer {
             bindings = <
                 &none           &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4        &none           &none           &none           &none           &none           &none  
-                &none           &out OUT_USB    &out OUT_BLE    &none           &sys_reset      &none               &none           &kp F7          &kp F8          &kp F9          &kp F10         &none
+                &none           &out OUT_USB    &out OUT_BLE    &none           &none           &sys_reset          &sys_reset      &kp F7          &kp F8          &kp F9          &kp F10         &none
                 &none           &none           &none           &none           &none           &none               &none           &kp F4          &kp F5          &kp F6          &kp F11         &none
                 &none           &none           &bt BT_CLR      &none           &none           &bootloader         &bootloader     &kp F1          &kp F2          &kp F3          &kp F12         &none
                                                 &none           &none                                                                               &none           &none 
