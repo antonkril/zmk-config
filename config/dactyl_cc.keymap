@@ -84,7 +84,7 @@
                 &none           &bt BT_CLR      &bt BT_SEL 3    &bt BT_SEL 2    &bt BT_SEL 1    &bootloader         &bootloader     &kp F1          &kp F2          &kp F3          &kp F12         &none
                                                 &none           &bt BT_SEL 0                                                                        &none           &none 
                                                                                 &trans          &none               &none           &trans 
-                                                                                &none           &none               &none           &none 
+                                                                                &trans          &none               &none           &trans 
                                                                                 &none           &none               &none           &none 
             >;
         };
