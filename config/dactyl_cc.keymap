@@ -44,8 +44,8 @@
             bindings = <
                 &none           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &none
                 &none           &kp Q           &kp W           &kp E           &kp R           &kp T               &kp Y           &kp U           &kp I           &kp O           &kp P           &none
-                &sys_reset      &kp A           &kp S           &kp D           &kp F           &kp G               &kp H           &kp J           &kp K           &kp L           &kp SEMI        &none
-                &bt BT_CLR      &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &none
+                &none           &kp A           &kp S           &kp D           &kp F           &kp G               &kp H           &kp J           &kp K           &kp L           &kp SEMI        &none
+                &none           &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &none
                                                 &kp LPAR        &kp RPAR                                                                            &kp LBKT        &kp RBKT
                                                                                 &lt LOWER ESC   &kp BSPC            &kp RET         &lt RAISE SPACE
                                                                                 &mt LGUI TAB    &mt LSHIFT GRAVE    &mt RSHIFT SQT  &mt RGUI STAR
@@ -79,9 +79,9 @@
         adjust_layer {
             bindings = <
                 &none           &none           &none           &none           &none           &none               &none           &none           &none           &none  
-                &none           &out OUT_USB    &none           &none           &none           &sys_reset          &sys_reset      &kp F7          &kp F8          &kp F9          &kp F10         &none
-                &none           &out OUT_BLE    &none           &none           &bt BT_SEL 4    &none               &none           &kp F4          &kp F5          &kp F6          &kp F11         &none
-                &none           &bt BT_CLR      &bt BT_SEL 3    &bt BT_SEL 2    &bt BT_SEL 1    &bootloader         &bootloader     &kp F1          &kp F2          &kp F3          &kp F12         &none
+                &bt BT_CLR      &none           &none           &none           &none           &none               &sys_reset      &kp F7          &kp F8          &kp F9          &kp F10         &none
+                &sys_reset      &none           &none           &none           &bt BT_SEL 4    &none               &none           &kp F4          &kp F5          &kp F6          &kp F11         &none
+                &bootloader     &bt BT_CLR      &bt BT_SEL 3    &bt BT_SEL 2    &bt BT_SEL 1    &none               &bootloader     &kp F1          &kp F2          &kp F3          &kp F12         &none
                                                 &none           &bt BT_SEL 0                                                                        &none           &none 
                                                                                 &trans          &none               &none           &trans 
                                                                                 &trans          &none               &none           &trans 
