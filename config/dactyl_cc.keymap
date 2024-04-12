@@ -47,9 +47,9 @@
                 &none           &kp A           &kp S           &kp D           &kp F           &kp G               &kp H           &kp J           &kp K           &kp L           &kp SEMI        &none
                 &none           &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH        &none
                                                 &kp LPAR        &kp RPAR                                                                            &kp LBKT        &kp RBKT
-                                                                                &lt LOWER ESC   &kp BSPC            &kp RET         &lt RAISE SPACE
-                                                                                &mt LGUI TAB    &mt LSHIFT GRAVE    &mt RSHIFT SQT  &mt RGUI STAR
-                                                                                &mt LALT COLON  &mt LCTRL MINUS     &mt RCTRL PLUS  &mt RALT EQUAL
+                                                                                &lt LOWER TAB   &mt LGUI BSPC       &mt RGUI RET    &lt RAISE SPACE
+                                                                                &mt LALT ESC    &mt LSHIFT GRAVE    &mt RSHIFT SQT  &mt RALT STAR
+                                                                                &mt COLON       &mt LCTRL MINUS     &mt RCTRL PLUS  &mt EQUAL
             >;
         };
         lower_layer {
@@ -59,7 +59,7 @@
                 &none           &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_RIGHT     &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none           &none
                 &none           &none           &none           &mkp RCLK       &mkp LCLK       &msc SCRL_UP        &none           &mkp LCLK       &mkp RCLK       &none           &none           &none
                                                 &kp C_BRI_DN    &kp C_BRI_UP                                                                        &kp C_VOL_DN    &kp C_VOL_UP
-                                                                                &trans          &none               &trans          &sl ADJUST
+                                                                                &trans          &ESC                &trans          &sl ADJUST
                                                                                 &sl ADJUST      &trans              &trans          &trans
                                                                                 &trans          &trans              &trans          &trans
             >;
