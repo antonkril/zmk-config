@@ -59,7 +59,7 @@
                 &none           &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_RIGHT     &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none           &none
                 &none           &none           &none           &mkp RCLK       &mkp LCLK       &msc SCRL_UP        &none           &mkp LCLK       &mkp RCLK       &none           &none           &none
                                                 &kp C_BRI_DN    &kp C_BRI_UP                                                                        &kp C_VOL_DN    &kp C_VOL_UP
-                                                                                &trans          &ESC                &trans          &sl ADJUST
+                                                                                &trans          &kp ESC             &trans          &sl ADJUST
                                                                                 &sl ADJUST      &trans              &trans          &trans
                                                                                 &trans          &trans              &trans          &trans
             >;
