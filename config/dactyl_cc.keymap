@@ -49,7 +49,7 @@
                                                 &kp LPAR        &kp RPAR                                                                            &kp LBKT        &kp RBKT
                                                                                 &lt LOWER TAB   &mt LGUI BSPC       &mt RGUI RET    &lt RAISE SPACE
                                                                                 &mt LALT ESC    &mt LSHIFT GRAVE    &mt RSHIFT SQT  &mt RALT STAR
-                                                                                &mt COLON       &mt LCTRL MINUS     &mt RCTRL PLUS  &mt EQUAL
+                                                                                &kp COLON       &mt LCTRL MINUS     &mt RCTRL PLUS  &kp EQUAL
             >;
         };
         lower_layer {
