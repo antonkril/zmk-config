@@ -14,7 +14,7 @@
 #define HYPER(key) LS(LC(LA(LG(key))))
 #define MEH(key)   LS(LC(LA(key)))
 
-#define U_MOUSE_MOVE_MAX 2500                     /* <--- New max speed setting (default: 600) */
+#define U_MOUSE_MOVE_MAX 3000                     /* <--- New max speed setting (default: 600) */
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT
@@ -59,7 +59,7 @@
                 &none           &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_RIGHT     &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none           &none
                 &none           &none           &none           &mkp RCLK       &mkp LCLK       &msc SCRL_UP        &none           &mkp LCLK       &mkp RCLK       &none           &none           &none
                                                 &kp C_BRI_DN    &kp C_BRI_UP                                                                        &kp C_VOL_DN    &kp C_VOL_UP
-                                                                                &trans          &kp ESC             &trans          &sl ADJUST
+                                                                                &trans          &kp RET             &trans          &sl ADJUST
                                                                                 &sl ADJUST      &trans              &trans          &trans
                                                                                 &trans          &trans              &trans          &trans
             >;
