@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 3000 /* <--- New max speed setting (default: 600) */
-#define ZMK_POINTING_DEFAULT_SRL_VAL 40 /* <--- New max speed setting (default: 10) */
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 40 /* <--- New max speed setting (default: 10) */
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
@@ -18,14 +18,12 @@
 
 &mmv {
 	time-to-max-speed-ms = <650>; /* <--- How long time until max speed is reached (default: 500) */
+    acceleration-exponent = <2>;
 };
 
 &msc {
 	time-to-max-speed-ms = <250>; /* <--- How long time until max speed is reached (default: 500) */
-};
-
-&sl {
-    release-after-ms = <5000>;
+    acceleration-exponent = <2>;
 };
 
 / {
