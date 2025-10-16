@@ -3,8 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 3500 /* <--- New max speed setting (default: 600) */
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 18 /* <--- New max speed setting (default: 10) */
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 4000 /* <--- New max speed setting (default: 600) */
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 15 /* <--- New max speed setting (default: 10) */
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
@@ -16,12 +16,12 @@
 #define MEH(key)   LS(LC(LA(key)))
 
 &mmv {
-	time-to-max-speed-ms = <850>; /* <--- How long time until max speed is reached (default: 500) */
+	time-to-max-speed-ms = <550>; /* <--- How long time until max speed is reached (default: 500) */
     acceleration-exponent = <1>;
 };
 
 &msc {
-	time-to-max-speed-ms = <250>; /* <--- How long time until max speed is reached (default: 500) */
+	time-to-max-speed-ms = <500>; /* <--- How long time until max speed is reached (default: 500) */
     acceleration-exponent = <1>;
 };
 
