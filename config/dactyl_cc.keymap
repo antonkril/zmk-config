@@ -16,7 +16,7 @@
 #define MEH(key)   LS(LC(LA(key)))
 
 &mmv {
-	time-to-max-speed-ms = <550>; /* <--- How long time until max speed is reached (default: 500) */
+	time-to-max-speed-ms = <500>; /* <--- How long time until max speed is reached (default: 500) */
     acceleration-exponent = <1>;
 };
 
