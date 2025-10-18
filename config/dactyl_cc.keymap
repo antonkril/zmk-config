@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 4000 /* <--- New max speed setting (default: 600) */
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 10 /* <--- New max speed setting (default: 10) */
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 30 /* <--- New max speed setting (default: 10) */
 #include <dt-bindings/zmk/pointing.h>
 
 #define DEFAULT 0
