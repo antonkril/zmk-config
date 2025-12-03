@@ -80,14 +80,14 @@
         };
         game_layer {
             bindings = <
-                &none           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &none 
-                &none           &kp N1          &kp Q           &kp W           &kp E           &kp R               &none           &none           &none           &none           &none           &none 
-                &none           &kp LSHIFT      &kp A           &kp S           &kp D           &kp F               &none           &kp F7          &kp F8          &kp F9          &kp F10         &none
-                &none           &kp N2          &kp Z           &kp X           &kp C           &kp V               &none           &kp F4          &kp F5          &kp F6          &kp F11         &none
-                                                &kp N3          &kp N4                                                                              &none           &none 
-                                                                                &kp TAB         &kp SPACE           &none           &trans 
-                                                                                &kp ESC         &kp RET             &none           &trans 
-                                                                                &none           &to DEFAULT         &to DEFAULT     &none 
+                &none           &none           &kp N1          &kp N2          &kp N3          &kp N4              &trans          &trans          &trans          &trans          &trans          &trans 
+                &none           &kp TAB         &kp Q           &kp W           &kp E           &kp R               &trans          &trans          &trans          &trans          &trans          &trans 
+                &none           &kp LSHIFT      &kp A           &kp S           &kp D           &kp F               &trans          &trans          &trans          &trans          &trans         &trans
+                &none           &kp LSHIFT      &kp Z           &kp X           &kp C           &kp V               &trans          &trans          &trans          &trans          &trans         &trans
+                                                &kp N3          &kp N4                                                                              &trans          &trans 
+                                                                                &kp TAB         &kp SPACE           &trans          &trans 
+                                                                                &kp ESC         &kp RET             &trans          &trans 
+                                                                                &none           &to DEFAULT         &to DEFAULT     &trans 
             >;
         };
     };
