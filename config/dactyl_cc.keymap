@@ -11,6 +11,7 @@
 #define LOWER   1
 #define RAISE   2
 #define ADJUST  3
+#define GAME    4
 
 #define HYPER(key) LS(LC(LA(LG(key))))
 #define MEH(key)   LS(LC(LA(key)))
@@ -74,7 +75,19 @@
                                                 &none           &bt BT_SEL 0                                                                        &none           &none 
                                                                                 &trans          &none               &none           &trans 
                                                                                 &trans          &none               &none           &trans 
-                                                                                &none           &none               &none           &none 
+                                                                                &none           &to GAME            &none           &none 
+            >;
+        };
+        game_layer {
+            bindings = <
+                &none           &none           &none           &none           &none           &none               &none           &none           &none           &none           &none           &none 
+                &none           &KP N1          &kp Q           &kp W           &kp E           &kp R               &none           &none           &none           &none           &none           &none 
+                &none           &KP LSHIFT      &kp A           &kp S           &kp D           &kp F               &none           &kp F7          &kp F8          &kp F9          &kp F10         &none
+                &none           &KP N2          &kp Z           &kp X           &kp C           &kp V               &none           &kp F4          &kp F5          &kp F6          &kp F11         &none
+                                                &KP N3          &kp N4                                                                              &none           &none 
+                                                                                &kp TAB         &kp SPACE           &none           &trans 
+                                                                                &kp ESC         &kp RET             &none           &trans 
+                                                                                &none           &to DEFAULT         &to DEFAULT     &none 
             >;
         };
     };
