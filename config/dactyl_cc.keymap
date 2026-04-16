@@ -35,7 +35,7 @@
                 &kp A           &kp S           &kp D           &kp F           &kp G               &kp H           &kp J           &kp K           &kp L           &kp SEMI
                 &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
                                                 &kp LPAR        &kp RPAR                                                                            &kp LBKT        &kp RBKT
-                                                                &lt LOWER BSPC  &kp ESC             &kp STAR    &lt RAISE SPACE
+                                                                &kp ESC         &lt LOWER BSPC      &lt RAISE SPACE &kp STAR    
                                                                 &mt LGUI TAB    &mt LSHIFT GRAVE    &mt RSHIFT SQT  &mt RGUI RET
                                                                 &mt LALT COLON  &mt LCTRL MINUS     &mt RCTRL PLUS  &mt RALT EQUAL
             >;
