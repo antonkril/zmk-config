@@ -46,7 +46,7 @@
                 &msc SCRL_RIGHT &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_LEFT      &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none
                 &none           &none           &mkp RCLK       &mkp LCLK       &msc SCRL_UP        &none           &mkp LCLK       &mkp RCLK       &none           &none
                                                 &kp C_BRI_DN    &kp C_BRI_UP                                                                        &kp C_VOL_DN    &kp C_VOL_UP
-                                                                &trans          &trans              &trans          &lt ADJUST ESC
+                                                                &trans          &trans              &lt ADJUST ESC  &trans
                                                                 &sl ADJUST      &trans              &trans          &trans
                                                                 &trans          &trans              &trans          &trans
             >;
@@ -56,8 +56,8 @@
                 &kp COLON       &kp AMPERSAND   &kp ASTERISK    &kp PIPE        &kp BSLH            &kp KP_DIVIDE   &kp N7          &kp N8          &kp N9          &kp KP_MULTIPLY
                 &kp LBRC        &kp CARET       &kp PERCENT     &kp DOLLAR      &kp RBRC            &kp MINUS       &kp N4          &kp N5          &kp N6          &kp PLUS
                 &kp LT          &kp HASH        &kp AT          &kp EXCL        &kp GT              &kp KP_EQUAL    &kp N1          &kp N2          &kp N3          &kp KP_ENTER
-                                                &trans          &trans                                                                              &kp N0          &kp KP_DOT
-                                                                &kp SPACE       &trans              &trans          &trans
+                                                &trans          &trans      :wq                                                                        &kp N0          &kp KP_DOT
+                                                                &trans          &kp SPACE           &trans          &trans
                                                                 &trans          &kp RET             &trans          &sl ADJUST
                                                                 &trans          &trans              &trans          &trans
             >;
