@@ -35,9 +35,9 @@
                 &kp A           &kp S           &kp D           &kp F           &kp G               &kp H           &kp J           &kp K           &kp L           &kp SEMI
                 &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp FSLH
                                                 &kp LPAR        &kp RPAR                                                                            &kp LBKT        &kp RBKT
-                                                                &lt LOWER ESC   &kp BSPC            &kp RET         &lt RAISE SPACE
-                                                                &mt LGUI TAB    &mt LSHIFT GRAVE    &mt RSHIFT SQT  &mt RGUI STAR
-                                                                &mt LALT COLON  &mt LCTRL MINUS     &mt RCTRL PLUS  &mt RALT EQUAL
+                                                                &lt LOWER TAB   &mt LGUI BSPC       &mt RGUI RET    &lt RAISE SPACE
+                                                                &mt LALT ESC    &mt LSHIFT GRAVE    &mt RSHIFT SQT  &mt RALT STAR
+                                                                &kp COLON       &mt LCTRL MINUS     &mt RCTRL PLUS  &mt RC(RALT) EQUAL
             >;
         };
         lower_layer {
